@@ -300,34 +300,3 @@ app.post("/getcart", fetchUser, async (req, res) => {
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
-
-// {
-//     "name": "product 123",
-//     "id": 22,
-//     "old_price": 10,
-//     "new_price": 8,
-//     "category": "kid",
-//     "image": "http://localhost:4000/images/product_1727256683132.png",
-//     "available": true
-// }
-
-// Remove product json
-// {
-//     "id":23,
-//     "name":"product 123"
-// }
-
-// JSON for allproducts using GET method
-
-// Signup
-// {
-//     "username":"checking user",
-//     "password":"12345678",
-//     "email":"user.greatstack@gmail.com"
-// }
-
-// login
-// {
-//     "email":"user.greatstack@gmail.com",
-//     "password":"12345678"
-// }
